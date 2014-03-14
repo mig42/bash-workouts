@@ -1,0 +1,12 @@
+set et!
+set ai!
+set ts=4
+syn on
+set cc=80
+set ruler
+"set listchars=eol:$,tab:>-,trail:.,extends:>,precedes:<,nbsp:·
+set listchars=tab:>-,trail:.,extends:>,precedes:<,nbsp:·
+set list
+highlight SpecialKey term=standout ctermbg=yellow guibg=yellow
+highlight EndOfLine term=standout ctermbg=DarkGrey guibg=DarkGrey
+match EndOfLine /$/
