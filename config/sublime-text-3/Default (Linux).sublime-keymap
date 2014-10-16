@@ -1,0 +1,9 @@
+[
+    { "keys": ["ctrl+º"], "command": "show_panel", "args": {"panel": "console", "toggle": true} },
+    { "keys": ["alt+f1"], "command": "reveal_in_side_bar" },
+    { "keys": ["alt+f2"], "command": "open_dir", "args": {"dir": "$file_path", "file": "$file_name"} },
+    { "keys": ["ctrl+alt+s"], "command": "save_all" },
+    { "keys": ["ctrl+alt+h"], "command": "htmlprettify" },
+    { "keys": ["ctrl+keypad0"], "command": "focus_side_bar" },
+    { "keys": ["shift+f6"], "command": "rename_path", "args": {"paths": ["$file"]} }
+]
